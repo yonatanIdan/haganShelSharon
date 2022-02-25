@@ -1,0 +1,37 @@
+.messages {
+    background: green;
+    display: table;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.chat-input {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0;
+}
+
+.chat-title {
+    direction: ltr;
+    padding-left: 15px;
+    margin: 0 !important;
+}
+
+.chat-body {
+    max-height: 221px;
+    overflow: auto;
+}
+
+.message-input {
+    width: 170px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.message-button {
+    background: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+}

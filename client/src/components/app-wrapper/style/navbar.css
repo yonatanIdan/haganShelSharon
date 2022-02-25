@@ -1,0 +1,56 @@
+.navbar {
+    text-align: center;
+    top: 0;
+    position: sticky;
+    /* background-image: url("../../image/barImage.jpg"); */
+    background: cornsilk;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.nav-tabs{
+    position: absolute;
+    bottom: 0;
+    margin-right: 150px;
+}
+
+.logo {
+    padding: 0 20px;
+    margin: 5px !important;
+    border-radius: 5px;
+}
+
+.buttom-bar {
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.buttom-bar:hover {
+    background-color: rgba(255, 255, 255, 0.842);
+    cursor: pointer;
+}
+
+.search {
+    padding: 10px;
+    border-radius: 15px;
+    width: 300px;
+    min-width: 50px;
+    margin: auto;
+}
+
+.controlled-tab{
+    position: absolute;
+    bottom: 0;
+    padding: 0 !important;
+    margin: 0 148px !important;
+}
+
+.controlled-tab > li{
+    background: #000000a2;
+    border-radius: 10px 10px 0 0;
+    margin: 0 1px;
+}
